@@ -17,4 +17,7 @@ $dbconnect4 = pg_connect($connect_str);
 
 $dbconnect5 = pg_connect("host=localhost options='--client_encoding=Base64'");
 
+
+// The PostgreSQL file attached to this project shows the repercussions to not utilizing security countermeasures.
+
 ?>
